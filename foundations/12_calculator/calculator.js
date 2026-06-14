@@ -6,8 +6,8 @@ const subtract = function(num1, num2) {
 	return num1 - num2;
 };
 
-const sum = function() {
-	
+const sum = function(array) {
+	return array.reduce((acc, el) => acc += el, 0);
 };
 
 const multiply = function() {
